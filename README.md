@@ -4,6 +4,10 @@
 
 The goal of this project is to build a basic house price prediction model using a Linear Regression algorithm. The dataset used for this analysis contains information about various houses, including their price, area, number of bedrooms, bathrooms, and other features.
 
+## Dataset
+
+You can download the dataset from [Google Drive](https://drive.google.com/file/d/1kQfIK4aKWArFL12H9i1S77Oajb3w3FG7/view?usp=sharing).
+
 ## Libraries Used
 
 The following Python libraries were used in this project:
