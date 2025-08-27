@@ -49,3 +49,32 @@ This project demonstrates a basic implementation of Linear Regression for house 
 3. Fine-tune hyperparameters to optimize model performance.
 4. Deploy the model as a web application for interactive use.
 
+## Streamlit Web Application
+
+This project includes a Streamlit app for interactive house price prediction.
+
+### How to Run the Streamlit App
+
+1. Install dependencies:
+	```
+	pip install -r requirements.txt
+	```
+2. Ensure your trained model is saved as `model.joblib` in the project folder.
+3. Start the app:
+	```
+	streamlit run streamlit_app.py
+	```
+4. Enter house details in the web interface to get price predictions.
+
+### Features
+- User-friendly interface for entering house details (area, bedrooms, bathrooms)
+- Predicts house price using the trained model
+- Error handling for missing model file or prediction issues
+- Option for users to upload and preview their own dataset (CSV)
+
+### Upload and Process Your Own Dataset
+You can upload your own CSV dataset using the file uploader in the Streamlit app. The app will display a preview and column names of your uploaded data. This feature allows you to explore and process custom datasets interactively.
+
+### Deployment
+You can deploy this app to Streamlit Community Cloud or other cloud platforms for public access. For Streamlit Cloud, simply upload your repository and set the main file to `streamlit_app.py`.
+
